@@ -1,5 +1,5 @@
 # Paperledger-AI
-
+live website: https://paperledger-ai.vercel.app/
 > **AI-powered financial document automation** — OCR, fraud detection, tax optimization, sustainability tracking, and smart exports in one dashboard.
 
 ![PaperLedger Dashboard](https://img.shields.io/badge/status-production--ready-brightgreen) ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue) ![React](https://img.shields.io/badge/React-19-61dafb) ![Gemini](https://img.shields.io/badge/Gemini-2.5--flash-orange)
@@ -18,7 +18,16 @@
 | 📈 **Predictive Forecasting** | 6-month cash flow projections with an interactive scenario simulator |
 | 💬 **AI Assistant** | Ask natural-language questions about your spending (powered by Gemini) |
 | 📤 **Multi-format Export** | Excel, CSV, JSON, QuickBooks IIF — with custom field mapping |
-
+AI OCR Engine: Automatically extract data from receipts, invoices, and complex spreadsheets. Paperledger-AI utilizes Google Gemini 2.5 Flash with custom retry logic to ensure high accuracy and resilience in data extraction.
+Intelligent Dashboard: See exactly where your money is going without the clutter. High-level stat cards and real-time category breakdowns provide instant insight into your financial health.
+Fraud Intelligence: Protect your project with automated risk scoring. Every document is audited for suspicious vendors, mismatched totals, and duplicate charges, with AI-generated flags for immediate review.
+Tax Optimizer: Maximize your write-offs with AI-generated deductibility scores. Get real-time tax optimization tips for every document while maintaining professional, audit-ready records.
+Sustainability Matrix: Track your environmental impact with category-level CO2 analytics. The system automatically estimates the carbon footprint of your hardware and software spend.
+Subscription Auditor: Never miss a payment with smart detection of recurring charges. Includes a deterministic forecasting engine to predict exactly when your next bill or renewal is due for any vendor.
+Scenario Forecasting: Model your future with interactive growth and cost-reduction simulators. Deep dive into your spend with 6-month cash flow projections based on your historical patterns.
+Professional Exports: Move your data seamlessly with support for Excel, CSV, and JSON. Includes a dedicated QuickBooks IIF generator to import your records directly into professional accounting software.
+Conversational AI: Interact with your data using a natural-language Assistant. Ask instant questions about your total spend, top categories, or specific invoices without manually searching through tables.
+Premium Aesthetics: A state-of-the-art dark mode interface built with Tailwind CSS v4. Features high-performance rendering, glassmorphism, and fluid animations for a world-class user experience.
 ---
 
 ## 🛠️ Tech Stack
@@ -159,18 +168,7 @@ paperledger/
 
 All exports support **custom field mapping** — rename columns to match your accounting system's schema.
 
----
 
-## 🔑 Environment Variables
-
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `GEMINI_API_KEY` | ✅ Yes | Google Gemini API key |
-| `APP_URL` | Optional | Base URL of the hosted app |
-| `QUICKBOOKS_CLIENT_ID` | Optional | For future QuickBooks OAuth integration |
-| `QUICKBOOKS_CLIENT_SECRET` | Optional | For future QuickBooks OAuth integration |
-
----
 
 ## 🔧 Available Scripts
 
@@ -181,37 +179,12 @@ npm run preview   # Preview the production build locally
 npm run lint      # TypeScript type-check (tsc --noEmit)
 ```
 
----
-
-## 🚢 Deployment (Vercel)
-
-The project includes a `vercel.json` config for one-click Vercel deployment:
-
-1. Push to GitHub
-2. Import the repo in [Vercel](https://vercel.com)
-3. Add `GEMINI_API_KEY` as an environment variable in the Vercel dashboard
-4. Deploy ✅
-
-> ⚠️ **Important**: Never commit your `.env` file. It is already listed in `.gitignore`.
-
----
-
 ## 🔒 Security Notes
 
 - API keys are injected at build time via `vite.config.ts` — they are **not** exposed in source code
 - Fraudulent documents are flagged but **never auto-approved** — all decisions remain with the user
 - No document data is stored server-side; all processing is done client-side or via stateless Gemini API calls
-
----
-
-## 🐞 Known Limitations
-
-- Voice input requires **Chrome or Edge** (uses `webkitSpeechRecognition`)
-- The "DocHub" and "iHub" export buttons are **placeholders** (coming soon)
-- Gemini API calls require an active internet connection
-- Excel files with very large sheets (>10,000 rows) may be slow to process
-
----
+```
 
 ## 📄 License
 

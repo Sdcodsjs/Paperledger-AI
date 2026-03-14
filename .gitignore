@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment files — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.log
+*.local
+
+# IDE configs
+.vscode/settings.json
+.idea/
+
+# Sample/test Excel files (optional — remove this line if you want to commit them)
+*.xlsx
+*.xls

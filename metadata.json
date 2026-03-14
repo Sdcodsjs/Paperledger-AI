@@ -1,0 +1,8 @@
+{
+  "name": "PaperLedger",
+  "description": "AI-powered document automation platform. Extract data from receipts/invoices to Excel and QuickBooks with voice capture, fraud detection, and conversational analytics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

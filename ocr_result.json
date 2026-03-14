@@ -1,0 +1,1393 @@
+{
+  "company": "GlobalNexus Enterprises Ltd.",
+  "totalGrossSpend": 324876.45,
+  "fraudAlerts": [
+    {
+      "amount": 4700,
+      "invoiceNo": "INV-FY26-0024",
+      "reason": "No contract, no verifiable address, cash payment. Suspected fraud.",
+      "recommendedAction": "Block payment. Report to compliance. Investigate source.",
+      "riskLevel": "HIGH",
+      "vendor": "UNKNOWN SERVICES CO."
+    },
+    {
+      "amount": 5000,
+      "invoiceNo": "INV-FY26-0030",
+      "reason": "Exact duplicate of previous invoice. Double-billing detected.",
+      "recommendedAction": "Reject invoice. Request original from vendor. Audit approval chain.",
+      "riskLevel": "HIGH",
+      "vendor": "DOUBLE BILL VENDOR"
+    },
+    {
+      "amount": 3500,
+      "invoiceNo": "INV-FY26-0049",
+      "reason": "Project PX-999 does not exist in any system. Phantom billing detected.",
+      "recommendedAction": "Escalate to internal audit. Potential employee collusion.",
+      "riskLevel": "HIGH",
+      "vendor": "GHOST BILLING LLC"
+    },
+    {
+      "amount": 5500,
+      "invoiceNo": "INV-FY26-0075",
+      "reason": "No PO raised. No contract. Payments to new unverified account. HOLD IMMEDIATELY.",
+      "recommendedAction": "HOLD. Refer to fraud investigation team immediately.",
+      "riskLevel": "HIGH",
+      "vendor": "FAST PAY SOLUTIONS"
+    },
+    {
+      "amount": 1840,
+      "invoiceNo": "INV-FY26-0020",
+      "reason": "High CO2 - offset credits needed",
+      "recommendedAction": "Switch to sea freight or rail where possible. Buy offset credits.",
+      "riskLevel": "MEDIUM",
+      "vendor": "FedEx Corporation"
+    },
+    {
+      "amount": 3200,
+      "invoiceNo": "INV-FY26-0065",
+      "reason": "High emissions route - explore sea freight",
+      "recommendedAction": "Reduce air freight. Consolidate shipments.",
+      "riskLevel": "MEDIUM",
+      "vendor": "UPS Logistics"
+    },
+    {
+      "amount": 22000,
+      "invoiceNo": "INV-FY26-0056",
+      "reason": "High-value engagement - ensure deliverables",
+      "recommendedAction": "Ensure SOW with milestone-based billing. Get Board sign-off.",
+      "riskLevel": "MEDIUM",
+      "vendor": "Boston Consulting Group"
+    },
+    {
+      "amount": 11520,
+      "invoiceNo": "INV-FY26-0059",
+      "reason": "Luxury vehicle - partial deductibility. Review with tax advisor.",
+      "recommendedAction": "Limit to 50% deduction. Get tax advisor sign-off.",
+      "riskLevel": "MEDIUM",
+      "vendor": "Rolls-Royce Motor Cars"
+    }
+  ],
+  "subscriptions": [
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1200,
+      "product": "EC2 + S3 + CloudFront bundle",
+      "vendor": "Amazon Web Services"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3400,
+      "product": "Azure EA",
+      "vendor": "Microsoft Azure"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 2100,
+      "product": "GCP Standard Tier",
+      "vendor": "Google Cloud Platform"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 7200,
+      "product": "Sales Cloud + Service Cloud × 40 seats",
+      "vendor": "Salesforce Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 719.92,
+      "product": "All Apps for Teams × 8 users",
+      "vendor": "Adobe Creative Cloud"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 12000,
+      "product": "Oracle DB Enterprise × 4 CPU",
+      "vendor": "Oracle Corporation"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 450,
+      "product": "Enterprise plan + Workers bundle",
+      "vendor": "Cloudflare Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3200,
+      "product": "Business Critical",
+      "vendor": "Snowflake Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1800,
+      "product": "APM Pro + Logs + Infrastructure",
+      "vendor": "DataDog"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1050,
+      "product": "Enterprise Cloud × 50 seats",
+      "vendor": "GitHub Enterprise"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 600,
+      "product": "Enterprise + Webinars × 100 hosts",
+      "vendor": "Zoom Video"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 750,
+      "product": "Business+ × 60 users",
+      "vendor": "Slack Technologies"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3200,
+      "product": "Marketing Hub Enterprise",
+      "vendor": "HubSpot"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 842,
+      "product": "Payment processing fees (April)",
+      "vendor": "Stripe Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1400,
+      "product": "Managed cloud hosting + SLA",
+      "vendor": "Rackspace"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 320,
+      "product": "SMS + Voice API usage",
+      "vendor": "Twilio Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 740,
+      "product": "Full Stack Observability",
+      "vendor": "New Relic"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 489,
+      "product": "Jira + Confluence + Bitbucket Cloud × 60",
+      "vendor": "Jira / Atlassian"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 2300,
+      "product": "Suite Professional × 20 agents",
+      "vendor": "Zendesk"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 480,
+      "product": "Business Pro × 25 envelopes/mo",
+      "vendor": "DocuSign"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 320,
+      "product": "Team plan × 40 members",
+      "vendor": "Notion"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 675,
+      "product": "Organization × 15 editors",
+      "vendor": "Figma"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 240,
+      "product": "Teams × 60 users",
+      "vendor": "1Password"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 480,
+      "product": "Pro plan × 30 users",
+      "vendor": "Monday.com"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 742.8,
+      "product": "HR platform × 120 employees",
+      "vendor": "BambooHR"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 11000,
+      "product": "Automation Suite × 5 robots",
+      "vendor": "UiPath"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 8400,
+      "product": "IT Service Management (ITSM) Enterprise",
+      "vendor": "ServiceNow"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3600,
+      "product": "Prisma Cloud CSPM + CWPP",
+      "vendor": "Palo Alto Networks"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3700,
+      "product": "Falcon Complete MDR × 200 endpoints",
+      "vendor": "CrowdStrike"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1200,
+      "product": "Workforce Identity × 150 users",
+      "vendor": "Okta Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1200,
+      "product": "Elastic Cloud Enterprise",
+      "vendor": "Elastic (Elasticsearch)"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 960,
+      "product": "Dedicated M50 cluster + backups",
+      "vendor": "MongoDB Atlas"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 200,
+      "product": "Pro × 10 team members",
+      "vendor": "Vercel"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 2000,
+      "product": "CDP Business plan",
+      "vendor": "Twilio Segment"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 4800,
+      "product": "Data Science Studio",
+      "vendor": "Dataiku"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3000,
+      "product": "Data Intelligence Platform",
+      "vendor": "Collibra"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 2800,
+      "product": "Recruiter × 5 seats + Job slots",
+      "vendor": "LinkedIn Talent"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 11200,
+      "product": "HCM + Financial Management (500 employees)",
+      "vendor": "Workday Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 4600,
+      "product": "Business Spend Management suite",
+      "vendor": "Coupa Software"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 7800,
+      "product": "FP&A planning platform",
+      "vendor": "Anaplan"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 28000,
+      "product": "S/4HANA Cloud",
+      "vendor": "SAP SE"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 2000,
+      "product": "Business Plus × 100 users",
+      "vendor": "Box Inc."
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 560,
+      "product": "Business plan × 35 members",
+      "vendor": "Miro"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 800,
+      "product": "50 users",
+      "vendor": "Canva for Teams"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 449.95,
+      "product": "Business plan",
+      "vendor": "Semrush"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 8000,
+      "product": "Essential plan × 500 employees",
+      "vendor": "Greenhouse (Recruiting)"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3600,
+      "product": "Workforce management suite",
+      "vendor": "UKG (Kronos)"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 5400,
+      "product": "Ad spend + Business tools Q1",
+      "vendor": "Meta Business Suite"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 12800,
+      "product": "Q1 performance marketing campaigns",
+      "vendor": "Google Ads"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 2800,
+      "product": "GovCloud isolated region for compliance",
+      "vendor": "AWS GovCloud"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 980,
+      "product": "Cloud Basic",
+      "vendor": "Confluent (Kafka)"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 4200,
+      "product": "Data Engineering + ML professional",
+      "vendor": "Databricks"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1000,
+      "product": "Terraform Cloud Business × 50 users",
+      "vendor": "HashiCorp"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 747,
+      "product": "All Products Pack × 30 devs",
+      "vendor": "JetBrains"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 390,
+      "product": "Business plan",
+      "vendor": "Sentry.io"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1960,
+      "product": "Enterprise × 40 dev seats",
+      "vendor": "Postman"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 800,
+      "product": "Scale plan",
+      "vendor": "CircleCI"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 420,
+      "product": "Advanced plan",
+      "vendor": "Cloudinary"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 249.95,
+      "product": "Pro 200k/mo email sends",
+      "vendor": "SendGrid (Twilio)"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 499,
+      "product": "Pro plan",
+      "vendor": "Mapbox"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1425,
+      "product": "Conversational Support × 15 seats",
+      "vendor": "Intercom"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 630,
+      "product": "Business plan × 30 users",
+      "vendor": "PagerDuty"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 180,
+      "product": "Standard × 20 users",
+      "vendor": "Opsgenie (Atlassian)"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 3600,
+      "product": "Lifecycle Professional",
+      "vendor": "Sonatype Nexus"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 1500,
+      "product": "Developer Edition",
+      "vendor": "SonarQube"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 489,
+      "product": "Team plan",
+      "vendor": "Contentful"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 240,
+      "product": "Starter plan",
+      "vendor": "LaunchDarkly"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 849,
+      "product": "Business plan",
+      "vendor": "FullStory"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 833,
+      "product": "Growth plan",
+      "vendor": "Mixpanel"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 995,
+      "product": "Growth plan",
+      "vendor": "Amplitude"
+    },
+    {
+      "businessCritical": true,
+      "frequency": "Monthly",
+      "monthlyCost": 680,
+      "product": "Business",
+      "vendor": "Heap Analytics"
+    }
+  ],
+  "aiSummary": "GlobalNexus Enterprises Ltd. maintained strong financial activity for FY 2025-2026, with a total gross spend of $324,876.45 across 100 transactions and an annual subscription commitment of over $2.4 million. However, the company faces elevated fraud risk with $18,700 flagged as high risk across four incidents involving suspicious vendors and phantom billing. Key areas for financial optimization include reviewing logistics spending for high CO2 emissions and maximizing tax deductibility for luxury fleet leases and marketing expenses. Overall, the company exhibits a moderate financial risk profile at 75, primarily due to identified fraud and opportunities for expenditure and tax optimization.",
+  "annualSubscriptionCommitment": 2402827.44,
+  "categoryBreakdown": [
+    {
+      "category": "Cloud Infrastructure",
+      "percentageOfTotal": "24.1%",
+      "totalSpend": 78450,
+      "transactionCount": 18
+    },
+    {
+      "category": "Software & Licenses",
+      "percentageOfTotal": "16.1%",
+      "totalSpend": 52310,
+      "transactionCount": 22
+    },
+    {
+      "category": "Consulting & Advisory",
+      "percentageOfTotal": "21.2%",
+      "totalSpend": 68900,
+      "transactionCount": 12
+    },
+    {
+      "category": "Hardware & Equipment",
+      "percentageOfTotal": "13.0%",
+      "totalSpend": 42180,
+      "transactionCount": 8
+    },
+    {
+      "category": "Logistics & Shipping",
+      "percentageOfTotal": "5.7%",
+      "totalSpend": 18640,
+      "transactionCount": 12
+    },
+    {
+      "category": "Travel & Transportation",
+      "percentageOfTotal": "6.6%",
+      "totalSpend": 21330.45,
+      "transactionCount": 14
+    },
+    {
+      "category": "Facilities & Utilities",
+      "percentageOfTotal": "8.7%",
+      "totalSpend": 28200,
+      "transactionCount": 6
+    },
+    {
+      "category": "Meals & Entertainment",
+      "percentageOfTotal": "1.7%",
+      "totalSpend": 5366,
+      "transactionCount": 8
+    },
+    {
+      "category": "Miscellaneous / Flagged",
+      "percentageOfTotal": "2.9%",
+      "totalSpend": 9500,
+      "transactionCount": 4
+    }
+  ],
+  "currency": "USD",
+  "fraudRiskExposure": 18700,
+  "monthlySubscriptionBurn": 18342.75,
+  "overallRiskScore": 75,
+  "reportPeriod": "01-Apr-2025 to 31-Mar-2026",
+  "taxOptimizationInsights": [
+    {
+      "category": "Travel & Transportation",
+      "estimatedSaving": 4608,
+      "insight": "Luxury vehicle - partial deductibility. Review with tax advisor."
+    },
+    {
+      "category": "Hardware & Equipment",
+      "estimatedSaving": 53400,
+      "insight": "Zero-emission fleet - CAPEX, qualify for tax credit"
+    },
+    {
+      "category": "Meals & Entertainment",
+      "estimatedSaving": 5493.6,
+      "insight": "50% deductible - employee meals"
+    },
+    {
+      "category": "Software & Licenses",
+      "estimatedSaving": 1080,
+      "insight": "80% deductible marketing spend"
+    },
+    {
+      "category": "Software & Licenses",
+      "estimatedSaving": 2560,
+      "insight": "80% deductible"
+    }
+  ],
+  "topVendors": [
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 356000,
+      "transactionCount": 1,
+      "vendor": "Tesla Inc."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 36328,
+      "transactionCount": 1,
+      "vendor": "SAP SE"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 31392,
+      "transactionCount": 2,
+      "vendor": "Accenture"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 28800,
+      "transactionCount": 1,
+      "vendor": "Accenture (Phase 2)"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "MEDIUM",
+      "totalSpend": 22000,
+      "transactionCount": 1,
+      "vendor": "Boston Consulting Group"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 21000,
+      "transactionCount": 1,
+      "vendor": "Linklaters LLP"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 20230,
+      "transactionCount": 1,
+      "vendor": "Siemens AG"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 18500,
+      "transactionCount": 1,
+      "vendor": "Aon Risk Solutions"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 18000,
+      "transactionCount": 1,
+      "vendor": "McKinsey & Company"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 15000,
+      "transactionCount": 1,
+      "vendor": "Palantir"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 15400,
+      "transactionCount": 1,
+      "vendor": "Samsung Electronics"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 15360,
+      "transactionCount": 1,
+      "vendor": "PwC Advisory"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 13000,
+      "transactionCount": 1,
+      "vendor": "WeWork"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 12800,
+      "transactionCount": 1,
+      "vendor": "Google Ads"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 12000,
+      "transactionCount": 1,
+      "vendor": "Oracle Corporation"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 11200,
+      "transactionCount": 1,
+      "vendor": "Workday Inc."
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "MEDIUM",
+      "totalSpend": 11520,
+      "transactionCount": 1,
+      "vendor": "Rolls-Royce Motor Cars"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 11760,
+      "transactionCount": 1,
+      "vendor": "KPMG LLP"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 11000,
+      "transactionCount": 1,
+      "vendor": "UiPath"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 11000,
+      "transactionCount": 1,
+      "vendor": "Infosys BPM"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 10987.2,
+      "transactionCount": 1,
+      "vendor": "Sodexo"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 10200,
+      "transactionCount": 1,
+      "vendor": "Clifford Chance"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 9500,
+      "transactionCount": 1,
+      "vendor": "Deloitte LLP"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 9120,
+      "transactionCount": 1,
+      "vendor": "Marriott Hotels"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 8800,
+      "transactionCount": 1,
+      "vendor": "American Airlines"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 8750,
+      "transactionCount": 1,
+      "vendor": "Wipro Limited"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 8400,
+      "transactionCount": 1,
+      "vendor": "ServiceNow"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 8000,
+      "transactionCount": 1,
+      "vendor": "Greenhouse (Recruiting)"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 7800,
+      "transactionCount": 1,
+      "vendor": "Anaplan"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 7200,
+      "transactionCount": 1,
+      "vendor": "Salesforce Inc."
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 7200,
+      "transactionCount": 1,
+      "vendor": "EY (Ernst & Young)"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 6500,
+      "transactionCount": 1,
+      "vendor": "CBRE Group"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 7680,
+      "transactionCount": 1,
+      "vendor": "Willis Towers Watson"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "HIGH",
+      "totalSpend": 5500,
+      "transactionCount": 1,
+      "vendor": "FAST PAY SOLUTIONS"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 5400,
+      "transactionCount": 1,
+      "vendor": "Meta Business Suite"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 5616,
+      "transactionCount": 1,
+      "vendor": "Johnson Controls"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 5760,
+      "transactionCount": 1,
+      "vendor": "TotalEnergies"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "HIGH",
+      "totalSpend": 5000,
+      "transactionCount": 1,
+      "vendor": "DOUBLE BILL VENDOR"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "HIGH",
+      "totalSpend": 4700,
+      "transactionCount": 1,
+      "vendor": "UNKNOWN SERVICES CO."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 4600,
+      "transactionCount": 1,
+      "vendor": "Coupa Software"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 4200,
+      "transactionCount": 1,
+      "vendor": "Databricks"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3700,
+      "transactionCount": 1,
+      "vendor": "CrowdStrike"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3600,
+      "transactionCount": 1,
+      "vendor": "Palo Alto Networks"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3600,
+      "transactionCount": 1,
+      "vendor": "UKG (Kronos)"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3600,
+      "transactionCount": 1,
+      "vendor": "Sonatype Nexus"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "HIGH",
+      "totalSpend": 3500,
+      "transactionCount": 1,
+      "vendor": "GHOST BILLING LLC"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3400,
+      "transactionCount": 1,
+      "vendor": "Microsoft Azure"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "MEDIUM",
+      "totalSpend": 3200,
+      "transactionCount": 1,
+      "vendor": "UPS Logistics"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3200,
+      "transactionCount": 1,
+      "vendor": "Snowflake Inc."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3200,
+      "transactionCount": 1,
+      "vendor": "HubSpot"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 3000,
+      "transactionCount": 1,
+      "vendor": "Collibra"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 2800,
+      "transactionCount": 1,
+      "vendor": "LinkedIn Talent"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 2800,
+      "transactionCount": 1,
+      "vendor": "AWS GovCloud"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 2737,
+      "transactionCount": 1,
+      "vendor": "DHL Express"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 2300,
+      "transactionCount": 1,
+      "vendor": "Zendesk"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 2100,
+      "transactionCount": 1,
+      "vendor": "Google Cloud Platform"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 2000,
+      "transactionCount": 1,
+      "vendor": "Twilio Segment"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 2000,
+      "transactionCount": 1,
+      "vendor": "Box Inc."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1960,
+      "transactionCount": 1,
+      "vendor": "Postman"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "MEDIUM",
+      "totalSpend": 1840,
+      "transactionCount": 1,
+      "vendor": "FedEx Corporation"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1800,
+      "transactionCount": 1,
+      "vendor": "DataDog"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1752.75,
+      "transactionCount": 1,
+      "vendor": "Intercom"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1800,
+      "transactionCount": 1,
+      "vendor": "SonarQube"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1400,
+      "transactionCount": 1,
+      "vendor": "Rackspace"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1200,
+      "transactionCount": 1,
+      "vendor": "Amazon Web Services"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1200,
+      "transactionCount": 1,
+      "vendor": "Okta Inc."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1200,
+      "transactionCount": 1,
+      "vendor": "Elastic (Elasticsearch)"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1050,
+      "transactionCount": 1,
+      "vendor": "GitHub Enterprise"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 1000,
+      "transactionCount": 1,
+      "vendor": "HashiCorp"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 995,
+      "transactionCount": 1,
+      "vendor": "Amplitude"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 980,
+      "transactionCount": 1,
+      "vendor": "Confluent (Kafka)"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 960,
+      "transactionCount": 1,
+      "vendor": "MongoDB Atlas"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 903.87,
+      "transactionCount": 1,
+      "vendor": "JetBrains"
+    },
+    {
+      "isSubscription": false,
+      "riskLevel": "LOW",
+      "totalSpend": 880,
+      "transactionCount": 1,
+      "vendor": "Uber Business"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 849,
+      "transactionCount": 1,
+      "vendor": "FullStory"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 842,
+      "transactionCount": 1,
+      "vendor": "Stripe Inc."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 833,
+      "transactionCount": 1,
+      "vendor": "Mixpanel"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 800,
+      "transactionCount": 1,
+      "vendor": "Canva for Teams"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 800,
+      "transactionCount": 1,
+      "vendor": "CircleCI"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 750,
+      "transactionCount": 1,
+      "vendor": "Slack Technologies"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 742.8,
+      "transactionCount": 1,
+      "vendor": "BambooHR"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 740,
+      "transactionCount": 1,
+      "vendor": "New Relic"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 719.92,
+      "transactionCount": 1,
+      "vendor": "Adobe Creative Cloud"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 680,
+      "transactionCount": 1,
+      "vendor": "Heap Analytics"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 675,
+      "transactionCount": 1,
+      "vendor": "Figma"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 630,
+      "transactionCount": 1,
+      "vendor": "PagerDuty"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 600,
+      "transactionCount": 1,
+      "vendor": "Zoom Video"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 581.91,
+      "transactionCount": 1,
+      "vendor": "Contentful"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 560,
+      "transactionCount": 1,
+      "vendor": "Miro"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 537.9,
+      "transactionCount": 1,
+      "vendor": "Jira / Atlassian"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 499,
+      "transactionCount": 1,
+      "vendor": "Mapbox"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 489,
+      "transactionCount": 1,
+      "vendor": "Cloudflare Inc."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 480,
+      "transactionCount": 1,
+      "vendor": "DocuSign"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 480,
+      "transactionCount": 1,
+      "vendor": "Monday.com"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 449.95,
+      "transactionCount": 1,
+      "vendor": "Semrush"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 420,
+      "transactionCount": 1,
+      "vendor": "Cloudinary"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 390,
+      "transactionCount": 1,
+      "vendor": "Sentry.io"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 320,
+      "transactionCount": 1,
+      "vendor": "Twilio Inc."
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 320,
+      "transactionCount": 1,
+      "vendor": "Notion"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 271.2,
+      "transactionCount": 1,
+      "vendor": "1Password"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 249.95,
+      "transactionCount": 1,
+      "vendor": "SendGrid (Twilio)"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 240,
+      "transactionCount": 1,
+      "vendor": "LaunchDarkly"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 200,
+      "transactionCount": 1,
+      "vendor": "Vercel"
+    },
+    {
+      "isSubscription": true,
+      "riskLevel": "LOW",
+      "totalSpend": 198,
+      "transactionCount": 1,
+      "vendor": "Opsgenie (Atlassian)"
+    }
+  ],
+  "totalCO2KgEstimate": 4812.45,
+  "totalTaxAmount": 28102.8,
+  "totalTaxDeductibleAmount": 289430,
+  "totalTransactions": 100
+}

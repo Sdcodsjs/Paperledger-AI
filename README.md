@@ -18,6 +18,7 @@ live website: https://paperledger-ai.vercel.app/
 | 📈 **Predictive Forecasting** | 6-month cash flow projections with an interactive scenario simulator |
 | 💬 **AI Assistant** | Ask natural-language questions about your spending (powered by Gemini) |
 | 📤 **Multi-format Export** | Excel, CSV, JSON, QuickBooks IIF — with custom field mapping |
+
 AI OCR Engine: Automatically extract data from receipts, invoices, and complex spreadsheets. Paperledger-AI utilizes Google Gemini 2.5 Flash with custom retry logic to ensure high accuracy and resilience in data extraction.
 Intelligent Dashboard: See exactly where your money is going without the clutter. High-level stat cards and real-time category breakdowns provide instant insight into your financial health.
 Fraud Intelligence: Protect your project with automated risk scoring. Every document is audited for suspicious vendors, mismatched totals, and duplicate charges, with AI-generated flags for immediate review.

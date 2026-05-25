@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment files — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.log
+*.local
+
+# IDE configs
+.vscode/settings.json
+.idea/
+
+# Sample/test files — never commit these
+*.xlsx
+*.xls
+*.csv
+ocr_result.json
+generate_excel.cjs
+generate_large_csv.cjs
+generate_excel.js
+docexplain.md
